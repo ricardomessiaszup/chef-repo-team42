@@ -4,13 +4,13 @@
 # https://docs.chef.io/policyfile/
 
 # A name that describes what the system you're building with Chef does.
-name 'chef-repo-team42'
+name 'disable-expiration-password'
 
 # Where to find external cookbooks:
 default_source :supermarket
 
 # run_list: chef-client will run these recipes in the order specified.
-run_list 'chef-repo-team42::default'
+run_list 'disable-expiration-password::default'
 
 # Specify a custom source for a single cookbook:
-cookbook 'chef-repo-team42', path: '.'
+cookbook 'disable-expiration-password', path: '.'

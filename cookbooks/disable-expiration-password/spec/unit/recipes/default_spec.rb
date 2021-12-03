@@ -1,12 +1,12 @@
 #
-# Cookbook:: chef-repo-team42
-# Spec:: disable-expiration-password
+# Cookbook:: disable-expiration-password
+# Spec:: default
 #
 # Copyright:: 2021, The Authors, All Rights Reserved.
 
 require 'spec_helper'
 
-describe 'chef-repo-team42::disable-expiration-password' do
+describe 'disable-expiration-password::default' do
   context 'When all attributes are default, on Ubuntu 20.04' do
     # for a complete list of available platforms and versions see:
     # https://github.com/chefspec/fauxhai/blob/master/PLATFORMS.md
