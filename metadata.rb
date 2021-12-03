@@ -1,6 +1,6 @@
 name 'disable-expiration-password'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Ricardo Messias Ferreira'
+maintainer_email 'ricardo.ferreira@zup.com.br'
 license 'All Rights Reserved'
 description 'Installs/Configures disable-expiration-password'
 version '0.1.0'
